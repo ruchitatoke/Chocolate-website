@@ -1,0 +1,462 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    scroll-padding-top: 90px;
+}
+body{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    background: black;
+}
+
+.navi{
+    width: 100%;
+    height: 90px;
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+    border-bottom: 0.3px solid grey;
+    position: fixed;
+}
+.navi img{
+    height: 70px;
+    width: 90px;
+}
+.heading i{
+    color: aliceblue;
+}
+.heading h1{
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    font-size: 3em;
+    padding: 15px;
+}
+.heading h1:hover{
+    color: #E5BA73;
+    cursor: pointer;
+}
+.menu-a a{
+       color: white;
+       outline: none;
+       text-decoration: none;
+       padding: 0 30px;
+       display: inline-block;
+       font-size: 16px;
+       font-family: sans-serif;
+       
+
+}
+.menu-a a:hover{
+    color: #E5BA73;
+    border-bottom: white 0.5px solid;
+}
+
+.icon{
+    
+    padding: 0 30px;
+    font-size: 20px;
+}
+.icon i{
+    padding: 10px 10px;
+    color: aliceblue;
+}
+.icon i:hover{
+color: #E5BA73;    
+cursor: pointer;
+}
+.home{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(img/bg1.jpg);
+    background-size: cover;
+    background-position: center;
+   
+    
+}
+.content h4{
+    font-size: 2.5em;
+    color: white;
+    padding: 0 60px;
+    text-transform: uppercase;
+    margin-top: 40px;
+
+}
+.first img{
+    transition: 0.4s ease-in-out;
+}
+.first img:hover{
+    transform: scale(1.5);
+}
+.content p{
+    font-size: 1.3rem;
+    color: white;
+    padding: 1rem 0;
+    line-height: lighter;
+    padding: 20px 60px;
+    
+    
+}
+.home .content{
+    max-width: 60rems;
+}
+.btn{
+    margin: 0px 60px;
+    display: inline-block;
+    padding: 0.5rem 1.5rem;
+    font-size: 1.5rem;
+    color: black;
+    background: #E5BA73;
+    cursor: pointer;
+    text-decoration: none;
+   
+    border-radius: 5px;
+    border: 1px solid #E5BA73;
+}
+.btn:hover{
+    color: azure;
+    background: none;
+    border: 1px solid #E5BA73;
+
+}
+.about{
+    width: 100%;
+    height: 90vh;
+    background-color: black;
+    
+}
+.heading-section h2{
+    color: white;
+    text-align: center;
+    font-size: 2.5rem;
+    padding-bottom: 3.2rem;
+    padding-top: 30px;
+}
+.heading-section span{
+    color: #E5BA73;
+}
+
+.text-area{
+    background-color: #041427;
+    height: 22rem;
+
+}
+.text-area h3{
+    color: white;
+    font-size: 1.9em;
+    margin:10px 0 20px 0;
+    padding: 10px 20px;
+}
+.text-area p{
+    color: white;
+    line-height: 1.5;
+    font-size: 18px;
+    padding: 30px 20px;
+    margin-top: -40px;
+}
+
+.all-about{
+    display: flex;
+    margin: 0px 90px;
+}
+
+.all-about >div{
+    flex-basis: 50%;
+}
+.text-area a{
+    margin: 20px ;
+    padding: 0.4rem 1.4rem;
+    font-size: 1.3rem;
+    color: black;
+    background: #E5BA73;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 1px solid #E5BA73;
+    
+}
+.text-area a:hover{
+    color: azure;
+    background: none;
+    border: 1px solid #E5BA73;
+}
+.menu-heading{
+    font-size: 2em;
+    color: white;
+    text-align: center;
+    padding-bottom: 1rem;
+    padding-top: 4px;
+    
+}
+.menu-heading span{
+    color: #E5BA73;
+}
+.all-menu{
+ text-align: center;
+ padding: 20px 55px;
+}
+
+.first{
+    display: inline-block;
+    padding: 30px 30px;
+    width: 300px;
+    height: 300px;
+    
+    
+}
+.first img{
+    width: 95%;
+    height: 100%;
+    transition: 0.4s ease-in;
+
+}
+.first img:hover{
+    transform: scale(1.1);
+}
+
+.first h4{
+    color: white;
+    margin: 10px 10px;
+    font-size: 1.3em;
+    font-family: sans-serif;
+}
+.first p{
+    color: white;
+    margin: 10px 10px;
+    font-size: 1.1em;
+}
+.first a{
+    margin: 20px ;
+    padding: 0.1rem 0.5rem;
+    font-size: 1.1rem;
+    color: black;
+    background: #E5BA73;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 1px solid #E5BA73;
+}
+.first a:hover{
+    color: azure;
+    background: none;
+    border: 1px solid #E5BA73;
+}
+.first span{
+    text-decoration: line-through;
+    font-size: 0.9em;
+    color: #E5BA73;
+}
+
+.second i{
+    padding: 20px 10px;
+    color: white;
+    font-size: 1.2em;
+    
+}
+.second i:hover{
+    color: #E5BA73;
+    
+}
+.menu-heading1{
+    font-size: 2em;
+    color: white;
+    text-align: center;
+    
+    padding-top: 30px;
+
+}
+.menu-heading1 span{
+    color: #E5BA73;
+}
+.all-products{
+    text-align: center;
+    padding: 10px 55px;
+   }
+.second{
+    display: inline-block;
+    padding: 30px 30px;
+    width: 300px;
+    height: 300px; 
+}
+.second img{
+    width: 95%;
+    height: 100%;
+    transition: 0.4s ease-in;
+
+}
+.second img:hover{
+    transform: scale(1.1);
+}
+
+.second h3{
+    color: white;
+    margin: 10px 10px;
+    font-size: 1.3em;
+    font-family: sans-serif;
+}
+.second p{
+    color: white;
+    margin: 10px 10px;
+    font-size: 1.1em;
+}
+.review-heading{
+    font-size: 2em;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.review-heading span{
+    color: #E5BA73;
+}
+
+.third img{
+    border-radius: 100%;
+    float: left;
+    padding: 10px 10px;
+   
+}
+.third h3{
+    color: white;
+    color: #E5BA73;
+    padding: 10px 0px;
+    margin: 0 20px;   
+}
+.third p{
+    color: white;
+    
+}
+.third h5{
+    color: white;
+    text-align: right;
+    display: inline-block;
+    padding-left: 450px;
+    line-height: 2px;
+}
+.third i{
+    color: white;
+    padding: 0 5px;
+    
+}
+.third i:hover{
+    color: #E5BA73;
+    cursor: pointer;
+}
+.third{
+    display: inline-block;
+    padding: 30px 160px;
+    border-bottom: 0.5px solid #E5BA73;
+    margin: 0 100px;
+}
+.contact-heading h3{
+    font-size: 2.5em;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.contact-heading span{
+    color: #E5BA73;
+}
+.form1 label{
+    color: white;
+}
+.form1 button{
+    
+    margin:20px 50px;
+    padding: 0.5rem 2rem;
+    font-size: 1.2rem;
+    color: black;
+    background: #E5BA73;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid #E5BA73;
+}
+.form1 button:hover{
+    color: azure;
+    background: none;
+    border: 1px solid #E5BA73;
+}
+.all-contact iframe{
+    height: 22rem;
+    width: 100%;
+    
+
+}
+.form1{
+    height: 22rem;
+    padding: 40px 35px;
+    background-color:#041427 ;
+
+}
+.all-content{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 100px;
+    margin-bottom: 80px;
+
+}
+.all-content >div{
+    flex-basis: 50%;
+}
+
+.form1 input{
+    width: 75%;
+    height: 38px;
+    font-size: 0.9rem;
+    border-radius: 5px;
+    text-transform: none;
+    
+}
+.form1 span{
+    padding-left: 5px;
+    color: #E5BA73;
+    margin: 25px 10px;
+    font-size: 1.2em;
+}
+.end >div{
+    color: white;   
+    padding: 0px 50px;
+    
+}
+.end {
+    display: flex;
+    margin: 0px 320px;
+    
+}
+.footer{
+    width: 100%;
+
+}
+.end h5{
+    color: #E5BA73;
+    font-size: 20px;
+    line-height: 1.8em;
+    border-bottom: 0.22px solid #E5BA73;
+}
+.end p{
+    font-size: 15px;
+    line-height: 1.7em;
+}
+.end p:hover{
+    color: #E5BA73;
+}
+
+.icon-e{
+    text-align: center;
+}
+.icon-e i{
+    color: white;
+    margin: 20px 10px;
+    font-size: 1.5em;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.icon-e i:hover{
+    color: #E5BA73;
+}
